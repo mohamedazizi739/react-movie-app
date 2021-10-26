@@ -126,3 +126,9 @@ nav button:hover::after {
     display: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #search input {
+    width: 170px;
+  }
+}
