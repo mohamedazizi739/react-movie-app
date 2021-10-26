@@ -131,4 +131,7 @@ nav button:hover::after {
   #search input {
     width: 170px;
   }
+  .search-list {
+    left: -150px;
+  }
 }
