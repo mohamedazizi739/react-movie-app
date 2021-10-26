@@ -39,7 +39,7 @@ const TeenMovies = () => {
       )
      })}
     </div>
-   {dataAvailable===true?<button className={"showBtn"} onClick={()=>{setPage(page+1)}}>{load===true?"Loding":"Show more"}</button>:null}
+   {dataAvailable===true?<button className={"showBtn"} onClick={()=>{setPage(page+1)}}>{load===true?"Loding...":"Show more"}</button>:null}
   </div>
  )
 }
